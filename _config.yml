@@ -5,8 +5,8 @@ author: Lijia YU
 email: yu@lijiayu.net
 description: "Freshman21 is a Jekyll blog theme."
 keywords: "Jekyll, theme, Freshman21"
-baseurl: "/freshman21"
-url: "haminhman2011.github.io"
+baseurl:
+url: "http://haminhman2011.github.io/"
 
 
 
