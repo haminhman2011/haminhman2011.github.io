@@ -4,7 +4,7 @@ title: Github overview
 categories: articles
 tags: [sample-post]
 comments: true
-description: How to install this theme, follow steps, very easy!
+description: Github overview
 ---
 
 ![Elaphurus davidianus](http://labs.septeni-technology.jp/wp-content/uploads/2013/08/github-bi-hack.jpg "Père David's deer")
