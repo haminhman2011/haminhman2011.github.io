@@ -1,30 +1,22 @@
 ---
 layout: post
-title: How to set the config.yml file
-modified: 2014-12-19
+title: Ubuntu overview
+modified: 2015-01-17
 categories: [articles, Howto]
 tags: 
   - configure
 comments: true
 ---
 
-The [config.yml file](https://github.com/yulijia/freshman21/blob/master/_config.yml) in the Freshman21 theme includes five parts. 
+**First part** Reach out and touch it
 
-**First part** is the site info.
+Enjoy the simplicity of Ubuntu's intuitive interface. Fast, secure and with thousands of apps to choose from, the sleek Ubuntu desktop experience is now optimised for multitouch devices, including laptop trackpads and touchscreens, as well as the familiar keyboard and mouse.
 
-{% highlight YAML %}
-title: Freshman21 # blog title
-tagline: Another Jekyll theme, Freshman twenty-first # blog sub-titile
-author: Lijia YU # author name
-email: yu@lijiayu.net # author email
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in 
-your feed.xml site description
-keywords: "Jekyll, theme, Freshman21" # html meta keywords
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog
-url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
-{% endhighlight %}
+**Part 2** Smarter searching.
 
-**Part 2**, Personal info and site tools info, twitter, github, aboutme and aboutme_photo only appears on the sidebar aboutme-box, you can <q>Hide</q> in two ways <sup>[[1]](#[1])</sup>:
+Ubuntu 14.04 LTS includes a wealth of smart filters to make it faster and easier to find the content you need, whether it’s stored on your computer or on the web.
+
+Type any query into the Dash home and the Smart Scopes server will determine which categories of content are the most relevant to your search, returning only the best results. The server constantly improves its results by learning which categories and results are most useful to you over time.
 
 {% highlight YAML %}
 twitter_username: #your twitter handle  
@@ -32,7 +24,7 @@ github_username:  #your github account
 disqus_shortname: #disqus shortname
 favicon:     "images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-box(sidebar).
-aboutme_photo: https://i.imgur.com/15BT1.jpg # your personal photo.
+aboutme_photo: http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-scopes.jpg # your personal photo.
 {% endhighlight %}
 
 **Part3**, Site setting:
