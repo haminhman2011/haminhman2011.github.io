@@ -21,13 +21,11 @@ Type any query into the Dash home and the Smart Scopes server will determine whi
 
 
 
-**Part3**, Site setting:
+**Part3**, First look: Unity 8
 
-{% highlight YAML %}
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
-default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
-{% endhighlight %}
+If you’re interested in the future of computing and you want to see how Ubuntu will look further down the line, you can download a preview version of Unity 8, Ubuntu’s next-generation user interface. Designed to support a single user experience across the smartphone, the tablet and the PC, it uses the current version of Mir, the cross-platform display server being developed by the Ubuntu community. Do note, however, that Mir only works with open-source graphics drivers at present.
+![Elaphurus davidianus](http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-unity8.svg "Père David's deer")
+
 
 
 **Part4**, Blogroll info, only *name* tags can shown on the page.
