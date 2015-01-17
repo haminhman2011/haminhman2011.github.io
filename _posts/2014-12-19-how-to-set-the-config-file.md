@@ -26,6 +26,4 @@ Type any query into the Dash home and the Smart Scopes server will determine whi
 If you’re interested in the future of computing and you want to see how Ubuntu will look further down the line, you can download a preview version of Unity 8, Ubuntu’s next-generation user interface. Designed to support a single user experience across the smartphone, the tablet and the PC, it uses the current version of Mir, the cross-platform display server being developed by the Ubuntu community. Do note, however, that Mir only works with open-source graphics drivers at present.
 ![Elaphurus davidianus](http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-unity8.svg "Père David's deer")
 
------
-title: Ubuntu Desktop for developers
------
+
