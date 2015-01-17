@@ -17,16 +17,10 @@ Enjoy the simplicity of Ubuntu's intuitive interface. Fast, secure and with thou
 Ubuntu 14.04 LTS includes a wealth of smart filters to make it faster and easier to find the content you need, whether it’s stored on your computer or on the web.
 
 Type any query into the Dash home and the Smart Scopes server will determine which categories of content are the most relevant to your search, returning only the best results. The server constantly improves its results by learning which categories and results are most useful to you over time.
-
-{% highlight YAML %}
-twitter_username: #your twitter handle  
-github_username:  #your github account
-disqus_shortname: #disqus shortname
-favicon:     "images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-box(sidebar).
-aboutme_photo: http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-scopes.jpg # your personal photo.
-{% endhighlight %}
 ![Elaphurus davidianus](http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-scopes.jpg "Père David's deer")
+
+
+
 **Part3**, Site setting:
 
 {% highlight YAML %}
