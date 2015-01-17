@@ -26,7 +26,7 @@ favicon:     "images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-box(sidebar).
 aboutme_photo: http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-scopes.jpg # your personal photo.
 {% endhighlight %}
-
+![Elaphurus davidianus](http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-scopes.jpg "Père David's deer")
 **Part3**, Site setting:
 
 {% highlight YAML %}
