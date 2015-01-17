@@ -26,43 +26,6 @@ Type any query into the Dash home and the Smart Scopes server will determine whi
 If you’re interested in the future of computing and you want to see how Ubuntu will look further down the line, you can download a preview version of Unity 8, Ubuntu’s next-generation user interface. Designed to support a single user experience across the smartphone, the tablet and the PC, it uses the current version of Mir, the cross-platform display server being developed by the Ubuntu community. Do note, however, that Mir only works with open-source graphics drivers at present.
 ![Elaphurus davidianus](http://assets.ubuntu.com/sites/ubuntu/1253/u/img/desktop/features/image-unity8.svg "Père David's deer")
 
-
-
-**Part4**, Blogroll info, only *name* tags can shown on the page.
-
-{% highlight YAML %}
-Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/freshman
-        title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
-{% endhighlight %}
-
-**Part5**, Build settings
-
-{% highlight YAML %}
-markdown: kramdown
-highlighter: pygments # highlight
-paginate: 5  # how many post can seen in the main page
-{% endhighlight %}
-
-=====
-
-<ul style='list-style-type:none;'> 
-<li id="[1]"> [1], you can set those info at <strong>Part3</strong> or just delete the <q>aboutme.html</q> at <q>sidebar.html</q> in <code>_include</code> folder. </li>
-</ul>
-
-{% highlight HTML %}
-<div class="col-sm-2">
-  <!--\{\% include Aboutme.html \%\}-->
-  \{\% include Copyright_Notice.html \%\}
-  \{\% include Resent_Posts.html \%\}
-  \{\% include Categories.html \%\}
-  \{\% include Tags.html \%\}
-  \{\% include Blogroll.html \%\}
-  \{\% include Archives.html \%\}
-</div>                                                                                                      
-{% endhighlight %} 
-
+-----
+title: Ubuntu Desktop for developers
+-----
