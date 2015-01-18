@@ -1,5 +1,1 @@
----
-published: true
-title: -----
 
-----
