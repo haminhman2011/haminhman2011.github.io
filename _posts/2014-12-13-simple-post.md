@@ -120,3 +120,4 @@ git checkout <branch name>
 **First 12** Remove branches
 {% highlight Bash shell scripts linenos%}
 git branch -d <branch name>
+{% endhighlight %}
