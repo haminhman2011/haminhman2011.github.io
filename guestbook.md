@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: page
 title: jQuery 
-categories: articles
-tags: [sample-post]
+comments: yes
 permalink: /guestbook/
-comments: true
 
 ---
 ![Elaphurus davidianus](http://zlatanblog.com/wp-content/uploads/picture/fullscreen-page.jpg "Père David's deer")
