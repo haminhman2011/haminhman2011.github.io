@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: CSS dropdown menu
 comments: yes
 permalink: /about/
 ---
