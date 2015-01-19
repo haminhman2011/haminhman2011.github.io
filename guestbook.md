@@ -3,6 +3,7 @@ layout: post
 title: jQuery 
 categories: articles
 tags: [sample-post]
+permalink: /guestbook/
 comments: true
 
 ---
