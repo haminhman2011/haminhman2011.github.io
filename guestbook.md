@@ -4,11 +4,9 @@ title: jQuery
 comments: yes
 permalink: /guestbook/
 ---
-## Create fullscreen slideshow with slides and jQuery plugin
-
-
 ![Elaphurus davidianus](http://zlatanblog.com/wp-content/uploads/picture/fullscreen-page.jpg "Père David's deer")
 
+## Create fullscreen slideshow with slides and jQuery plugin
 Today's article will guide you to use slides and .resize plugin () event in jQuery to create a slideshow full sceen.
 First we need to prepare jquery plugin slides and photos. You can go here to download:
 http://slidesjs.com/ 
