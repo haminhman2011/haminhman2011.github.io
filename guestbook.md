@@ -2,7 +2,6 @@
 layout: post
 title: jQuery 
 comments: yes
-permalink: /guestbook/
 categories: articles
 tags: [sample-post]
 comments: true
