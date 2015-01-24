@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Tags
+title: Rails
+comments: yes
 premalink: /tags/
 ---
 
