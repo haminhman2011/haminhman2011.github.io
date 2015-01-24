@@ -133,6 +133,7 @@ puts user.microposts.first.content
 end
 {% endhighlight %}
 Đoạn code trên khi chạy sẽ thực hiện 1 query (để lấy 3 users) + 3 queries (1 query cho mỗi user để lấy content của micropost) = 4 queries.
+
 ### a.includes()
 Với includes(), ActiveRecords giúp ta load trước các associations sẽ được sử dụng trong query, làm giảm số lượng query cần thực hiện.
 Khi ta thực hiện query trên các associations, vì dữ liệu đã được load sẵn nên không cần phải vào database lần nữa.
@@ -148,6 +149,7 @@ SELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" IN (3, 4, 5
 {% endhighlight %}
 Tuy nhiên khi sử dụng includes() cần chú ý về khối lượng dữ liệu được load sẵn. Nếu dữ liệu quá lớn thì sử dụng includes() là không nên.
 Với lượng dữ liệu nhỏ ta có thể sử dụng joins().
+
 ### b.joins()
 
 Để join các tables trong databases, ta có thể sử dụng joins()
