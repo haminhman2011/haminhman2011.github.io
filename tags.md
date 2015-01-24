@@ -4,23 +4,15 @@ title: Rails
 comments: yes
 premalink: /tags/
 ---
+### Đây là ý nghie4 về một số khái niệm và ý nghĩ các từ khóa cơ bản trong Rails
 
-<ul class="tags-box">
-{% if site.posts != empty %}
-{% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}<span class="size"> {{ tag[1].size }}</span></a>
-{% endfor %}
-</ul>
+## I. ActiveRecord là gì?
+ActiveRecord thực hiện query trên database. Nó tương thích với hầu hết database systems thông thường như MySQL, SQLite, PostgreSQL.
+Format của ActiveRecord method là như nhau với mọi database systems nên việc sử dụng là rất dễ dàng.
+ActiveRecord tự động map Ruby object tới table tương ứng trong database.
+2 thành phần quan trọng của ActiveRecord là ActiveRecord::Base và ActiveRecord::Validations
 
-<ul class="tags-box">
-{% for tag in site.tags %}
-<li  id="{{ tag[0] }}">{{ tag[0] }}</li>
-{% for post in tag[1] %}
-<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &raquo;
-<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
-{% endfor %}
-{% endfor %}
-{% else %}
-<span>No posts</span>
-{% endif %}
-</ul>
+Class ActiveRecord::Base là base class của mọi class được ActiveRecord map tới database.
+{% highlight Bash shell scripts linenos%}
+class User < ActiveRecord::Base
+{% endhighlight %}
