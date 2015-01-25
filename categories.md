@@ -7,6 +7,7 @@ permalink: /categories/
 ## Số và Phép toán trong Ruby
 
 ###  Các hàm chuyển số trong Ruby:
+
 {% highlight Bash shell scripts linenos%}
 to_i: chuyển về số nguyên
 
